@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDEF4333-6A1E-4C55-976C-54DFEAE77793}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WhatsHappening.ApplicationServices.Implementation</RootNamespace>
+    <AssemblyName>WhatsHappening.ApplicationServices.Implementation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventAppServices.cs" />
+    <Compile Include="EventBulkUploadAppServices.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WhatsHappening.ApplicationServices\WhatsHappening.ApplicationServices.csproj">
+      <Project>{dd3e3eaa-d74f-4487-8be3-55029a52031c}</Project>
+      <Name>WhatsHappening.ApplicationServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhatsHappening.BulkUpload.Data\WhatsHappening.BulkUpload.Data.csproj">
+      <Project>{f897ae27-d14e-4796-9768-e00510019453}</Project>
+      <Name>WhatsHappening.BulkUpload.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhatsHappening.BulkUpload\WhatsHappening.BulkUpload.csproj">
+      <Project>{532fb780-ba5b-4bdf-b1d3-7de3c9b0ea24}</Project>
+      <Name>WhatsHappening.BulkUpload</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhatsHappening.Domain\WhatsHappening.Domain.csproj">
+      <Project>{98f19e7f-4a3e-40d0-bdf4-f316c0f26602}</Project>
+      <Name>WhatsHappening.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhatsHappening.Infrastructure\WhatsHappening.Infrastructure.csproj">
+      <Project>{726ce932-2ef0-4020-a3a4-fc937076688b}</Project>
+      <Name>WhatsHappening.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

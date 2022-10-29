@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Event Bulk Upload";
+}
+
+<h2>Event Bulk Upload</h2>
+
+<form action="" method="post" enctype="multipart/form-data">
+
+    @Html.AntiForgeryToken()
+
+    <label for="file">Event Bulk Upload Filename:</label>
+    <input type="file" name="file" id="file" />
+
+    <input type="submit" class="btn btn-primary"/>
+</form>

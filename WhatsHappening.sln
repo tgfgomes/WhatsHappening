@@ -1,0 +1,312 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{F4915312-2FDA-4D0C-958D-C09E38CF7AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Domain", "WhatsHappening.Domain\WhatsHappening.Domain.csproj", "{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Data", "WhatsHappening.Data\WhatsHappening.Data.csproj", "{632CF503-6CFF-4EF5-AF5B-E87E5A699319}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WhatsHappening.Database", "WhatsHappening.Database\WhatsHappening.Database.sqlproj", "{F301632F-B242-461F-B7FC-4DB6C4F3412E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Web", "WhatsHappening.Web\WhatsHappening.Web.csproj", "{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Domain.Implementation", "WhatsHappening.Domain.Implementation\WhatsHappening.Domain.Implementation.csproj", "{1E645522-93EC-44A5-8136-BCF51DE942F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Domain.Unity", "WhatsHappening.Domain.Unity\WhatsHappening.Domain.Unity.csproj", "{1D592503-D6D7-4B00-9372-E436BD4B2069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Domain.Serialization", "WhatsHappening.Domain.Serialization\WhatsHappening.Domain.Serialization.csproj", "{A6EABC13-576F-4710-AED3-8E8B356E28E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Domain.Serialization.Implementation", "WhatsHappening.Domain.Serialization.Implementation\WhatsHappening.Domain.Serialization.Implementation.csproj", "{37447672-8D94-4272-9C2E-94AA173086F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Infrastructure", "WhatsHappening.Infrastructure\WhatsHappening.Infrastructure.csproj", "{726CE932-2EF0-4020-A3A4-FC937076688B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Infrastructure.Unity", "WhatsHappening.Infrastructure.Unity\WhatsHappening.Infrastructure.Unity.csproj", "{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Domain.Serialization.Implementation.Tests", "WhatsHappening.Domain.Serialization.Implementation.Tests\WhatsHappening.Domain.Serialization.Implementation.Tests.csproj", "{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Domain.Implementation.Tests", "WhatsHappening.Domain.Implementation.Tests\WhatsHappening.Domain.Implementation.Tests.csproj", "{BB477A06-1D7B-490B-B432-6970F154D2B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Web.Tests", "WhatsHappening.Web.Tests\WhatsHappening.Web.Tests.csproj", "{C5C9DDD5-58CE-45A0-937D-90A1D2693450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.BulkUpload.Data", "WhatsHappening.BulkUpload.Data\WhatsHappening.BulkUpload.Data.csproj", "{F897AE27-D14E-4796-9768-E00510019453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.BulkUpload.FromExcel", "WhatsHappening.BulkUpload.FromExcel\WhatsHappening.BulkUpload.FromExcel.csproj", "{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.BulkUpload", "WhatsHappening.BulkUpload\WhatsHappening.BulkUpload.csproj", "{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.BulkUpload.Unity", "WhatsHappening.BulkUpload.Unity\WhatsHappening.BulkUpload.Unity.csproj", "{C82EB0DA-CEB4-4C7B-A791-C35689231461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.BulkUpload.Tests", "WhatsHappening.BulkUpload.Tests\WhatsHappening.BulkUpload.Tests.csproj", "{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.ApplicationServices", "WhatsHappening.ApplicationServices\WhatsHappening.ApplicationServices.csproj", "{DD3E3EAA-D74F-4487-8BE3-55029A52031C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.ApplicationServices.Implementation", "WhatsHappening.ApplicationServices.Implementation\WhatsHappening.ApplicationServices.Implementation.csproj", "{DDEF4333-6A1E-4C55-976C-54DFEAE77793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.ApplicationServices.Unity", "WhatsHappening.ApplicationServices.Unity\WhatsHappening.ApplicationServices.Unity.csproj", "{E6BD4315-DD8B-48F6-A46C-3661F94C612E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsHappening.Auth", "WhatsHappening.Auth\WhatsHappening.Auth.csproj", "{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		whatshappening.WebDeploy.Debug|Any CPU = whatshappening.WebDeploy.Debug|Any CPU
+		whatshappening.WebDeploy|Any CPU = whatshappening.WebDeploy|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{98F19E7F-4A3E-40D0-BDF4-F316C0F26602}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{632CF503-6CFF-4EF5-AF5B-E87E5A699319}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{F301632F-B242-461F-B7FC-4DB6C4F3412E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F301632F-B242-461F-B7FC-4DB6C4F3412E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F301632F-B242-461F-B7FC-4DB6C4F3412E}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{F301632F-B242-461F-B7FC-4DB6C4F3412E}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{F301632F-B242-461F-B7FC-4DB6C4F3412E}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{E86B7CB9-A342-43D2-9AB1-4860E9573BD7}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{1E645522-93EC-44A5-8136-BCF51DE942F5}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{1D592503-D6D7-4B00-9372-E436BD4B2069}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{A6EABC13-576F-4710-AED3-8E8B356E28E5}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{37447672-8D94-4272-9C2E-94AA173086F5}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{726CE932-2EF0-4020-A3A4-FC937076688B}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{B1AA7457-10B2-457B-9691-1DB6FC7FB34E}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{54BF1C30-E041-47B1-93F8-3A7AD4FE6373}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{BB477A06-1D7B-490B-B432-6970F154D2B0}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{C5C9DDD5-58CE-45A0-937D-90A1D2693450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C9DDD5-58CE-45A0-937D-90A1D2693450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C9DDD5-58CE-45A0-937D-90A1D2693450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C9DDD5-58CE-45A0-937D-90A1D2693450}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{C5C9DDD5-58CE-45A0-937D-90A1D2693450}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{C5C9DDD5-58CE-45A0-937D-90A1D2693450}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{C5C9DDD5-58CE-45A0-937D-90A1D2693450}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{F897AE27-D14E-4796-9768-E00510019453}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{1252BDE2-A86B-49A9-98B4-75D6CE9CE0FA}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{532FB780-BA5B-4BDF-B1D3-7DE3C9B0EA24}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = whatshappening.WebDeploy.Debug|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = whatshappening.WebDeploy.Debug|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.whatshappening.WebDeploy|Any CPU.ActiveCfg = whatshappening.WebDeploy|Any CPU
+		{C82EB0DA-CEB4-4C7B-A791-C35689231461}.whatshappening.WebDeploy|Any CPU.Build.0 = whatshappening.WebDeploy|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.whatshappening.WebDeploy|Any CPU.ActiveCfg = Release|Any CPU
+		{88C183FE-EE6F-4D5D-AB42-C0C2687EFE71}.whatshappening.WebDeploy|Any CPU.Build.0 = Release|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.whatshappening.WebDeploy|Any CPU.ActiveCfg = Release|Any CPU
+		{DD3E3EAA-D74F-4487-8BE3-55029A52031C}.whatshappening.WebDeploy|Any CPU.Build.0 = Release|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.whatshappening.WebDeploy|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEF4333-6A1E-4C55-976C-54DFEAE77793}.whatshappening.WebDeploy|Any CPU.Build.0 = Release|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.whatshappening.WebDeploy|Any CPU.ActiveCfg = Release|Any CPU
+		{E6BD4315-DD8B-48F6-A46C-3661F94C612E}.whatshappening.WebDeploy|Any CPU.Build.0 = Release|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.whatshappening.WebDeploy.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.whatshappening.WebDeploy.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.whatshappening.WebDeploy|Any CPU.ActiveCfg = Release|Any CPU
+		{AA109AE0-7A34-4D05-9E34-6DB1B2BE635E}.whatshappening.WebDeploy|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F301632F-B242-461F-B7FC-4DB6C4F3412E} = {F4915312-2FDA-4D0C-958D-C09E38CF7AC4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 23
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tgfgomes.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WhatsHappening.Data\\WhatsHappening.Data.csproj
+		SccProjectName1 = WhatsHappening.Data
+		SccLocalPath1 = WhatsHappening.Data
+		SccProjectUniqueName2 = WhatsHappening.Database\\WhatsHappening.Database.sqlproj
+		SccProjectTopLevelParentUniqueName2 = WhatsHappening.sln
+		SccProjectName2 = WhatsHappening.Database
+		SccLocalPath2 = WhatsHappening.Database
+		SccProjectUniqueName3 = WhatsHappening.Domain\\WhatsHappening.Domain.csproj
+		SccProjectName3 = WhatsHappening.Domain
+		SccLocalPath3 = WhatsHappening.Domain
+		SccProjectUniqueName4 = WhatsHappening.Web\\WhatsHappening.Web.csproj
+		SccProjectName4 = WhatsHappening.Web
+		SccLocalPath4 = WhatsHappening.Web
+		SccProjectUniqueName5 = WhatsHappening.Domain.Implementation\\WhatsHappening.Domain.Implementation.csproj
+		SccProjectName5 = WhatsHappening.Domain.Implementation
+		SccLocalPath5 = WhatsHappening.Domain.Implementation
+		SccProjectUniqueName6 = WhatsHappening.Domain.Unity\\WhatsHappening.Domain.Unity.csproj
+		SccProjectName6 = WhatsHappening.Domain.Unity
+		SccLocalPath6 = WhatsHappening.Domain.Unity
+		SccProjectUniqueName7 = WhatsHappening.Domain.Serialization\\WhatsHappening.Domain.Serialization.csproj
+		SccProjectName7 = WhatsHappening.Domain.Serialization
+		SccLocalPath7 = WhatsHappening.Domain.Serialization
+		SccProjectUniqueName8 = WhatsHappening.Domain.Serialization.Implementation\\WhatsHappening.Domain.Serialization.Implementation.csproj
+		SccProjectName8 = WhatsHappening.Domain.Serialization.Implementation
+		SccLocalPath8 = WhatsHappening.Domain.Serialization.Implementation
+		SccProjectUniqueName9 = WhatsHappening.Infrastructure\\WhatsHappening.Infrastructure.csproj
+		SccProjectName9 = WhatsHappening.Infrastructure
+		SccLocalPath9 = WhatsHappening.Infrastructure
+		SccProjectUniqueName10 = WhatsHappening.Infrastructure.Unity\\WhatsHappening.Infrastructure.Unity.csproj
+		SccProjectName10 = WhatsHappening.Infrastructure.Unity
+		SccLocalPath10 = WhatsHappening.Infrastructure.Unity
+		SccProjectUniqueName11 = WhatsHappening.Domain.Serialization.Implementation.Tests\\WhatsHappening.Domain.Serialization.Implementation.Tests.csproj
+		SccProjectName11 = WhatsHappening.Domain.Serialization.Implementation.Tests
+		SccLocalPath11 = WhatsHappening.Domain.Serialization.Implementation.Tests
+		SccProjectUniqueName12 = WhatsHappening.Domain.Implementation.Tests\\WhatsHappening.Domain.Implementation.Tests.csproj
+		SccProjectName12 = WhatsHappening.Domain.Implementation.Tests
+		SccLocalPath12 = WhatsHappening.Domain.Implementation.Tests
+		SccProjectUniqueName13 = WhatsHappening.Web.Tests\\WhatsHappening.Web.Tests.csproj
+		SccProjectName13 = WhatsHappening.Web.Tests
+		SccLocalPath13 = WhatsHappening.Web.Tests
+		SccProjectUniqueName14 = WhatsHappening.BulkUpload.Data\\WhatsHappening.BulkUpload.Data.csproj
+		SccProjectName14 = WhatsHappening.BulkUpload.Data
+		SccLocalPath14 = WhatsHappening.BulkUpload.Data
+		SccProjectUniqueName15 = WhatsHappening.BulkUpload.FromExcel\\WhatsHappening.BulkUpload.FromExcel.csproj
+		SccProjectName15 = WhatsHappening.BulkUpload.FromExcel
+		SccLocalPath15 = WhatsHappening.BulkUpload.FromExcel
+		SccProjectUniqueName16 = WhatsHappening.BulkUpload\\WhatsHappening.BulkUpload.csproj
+		SccProjectName16 = WhatsHappening.BulkUpload
+		SccLocalPath16 = WhatsHappening.BulkUpload
+		SccProjectUniqueName17 = WhatsHappening.BulkUpload.Unity\\WhatsHappening.BulkUpload.Unity.csproj
+		SccProjectName17 = WhatsHappening.BulkUpload.Unity
+		SccLocalPath17 = WhatsHappening.BulkUpload.Unity
+		SccProjectUniqueName18 = WhatsHappening.BulkUpload.Tests\\WhatsHappening.BulkUpload.Tests.csproj
+		SccProjectName18 = WhatsHappening.BulkUpload.Tests
+		SccLocalPath18 = WhatsHappening.BulkUpload.Tests
+		SccProjectUniqueName19 = WhatsHappening.ApplicationServices\\WhatsHappening.ApplicationServices.csproj
+		SccProjectName19 = WhatsHappening.ApplicationServices
+		SccLocalPath19 = WhatsHappening.ApplicationServices
+		SccProjectUniqueName20 = WhatsHappening.ApplicationServices.Implementation\\WhatsHappening.ApplicationServices.Implementation.csproj
+		SccProjectName20 = WhatsHappening.ApplicationServices.Implementation
+		SccLocalPath20 = WhatsHappening.ApplicationServices.Implementation
+		SccProjectUniqueName21 = WhatsHappening.ApplicationServices.Unity\\WhatsHappening.ApplicationServices.Unity.csproj
+		SccProjectName21 = WhatsHappening.ApplicationServices.Unity
+		SccLocalPath21 = WhatsHappening.ApplicationServices.Unity
+		SccProjectUniqueName22 = WhatsHappening.Auth\\WhatsHappening.Auth.csproj
+		SccProjectName22 = WhatsHappening.Auth
+		SccLocalPath22 = WhatsHappening.Auth
+	EndGlobalSection
+EndGlobal

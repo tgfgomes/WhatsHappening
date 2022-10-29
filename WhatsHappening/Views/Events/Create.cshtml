@@ -1,0 +1,52 @@
+﻿@model WhatsHappening.Models.Events.EventCreate
+
+<h2>Create Event</h2>
+
+
+@using (Html.BeginForm("Create", "Events", FormMethod.Post,
+        new { id = "FormCreateNewOfferProposal", @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <div class="col-md-2">@Html.LabelFor(model => model.Name, new { @class = "control-label" })</div>
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder = "name" })
+            @Html.ValidationMessageFor(p => p.Name)
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-2">@Html.LabelFor(model => model.Address, new { @class = "control-label" })</div>
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Address, new { @class = "form-control", placeholder = "address" })
+            @Html.ValidationMessageFor(p => p.Address)
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-2">@Html.LabelFor(model => model.City, new { @class = "control-label" })</div>
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.City, new { @class = "form-control", placeholder = "city" })
+            @Html.ValidationMessageFor(p => p.City)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-2">@Html.LabelFor(model => model.Country, new { @class = "control-label" })</div>
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.Country, new { @class = "form-control", placeholder = "country" })
+            @Html.ValidationMessageFor(p => p.Country)
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <a id="Cancel" href='@Url.Action("Index", "Events")' role="button">Cancel</a>
+        <button type="submit" class="btn btn-primary btn-lg">Save</button>
+    </div>
+}
+

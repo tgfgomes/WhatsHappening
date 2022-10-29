@@ -1,0 +1,64 @@
+﻿@*@model IEnumerable<WhatsHappening.Web.Models.Event.EventDetailModel>*@
+@model WhatsHappening.Web.Models.Event.SearchResultsModel
+
+@{
+    ViewBag.Title = "WhatsHappening - Events search resuls";
+}
+
+<h2>Showing @*@Model.EventSearchData.CategoryList*@ Events for @Model.EventSearchData.EventLocation @(Model.EventSearchData.EventDate.HasValue ? " on the " + Model.EventSearchData.EventDate.Value.ToShortDateString() : "")</h2>
+
+
+<div class="spacer2">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EventList.First().Name)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EventList.First().EventDate)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EventList.First().Address)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EventList.First().CountryName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.EventList.First().CityName)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.EventList)
+                        {
+                            @Html.HiddenFor(modelItem => item.EventId)
+                            <tr>
+                                <td>@Html.ActionLink(item.Name, "Detail", "Event", new { id = item.EventId, CurrentPage = Model.Pagination.CurrentPage }, null)</td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.EventDate)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Address)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CountryName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.CityName)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @Html.DisplayFor(model => model.Pagination)
+    </div>
+</div>
+
+

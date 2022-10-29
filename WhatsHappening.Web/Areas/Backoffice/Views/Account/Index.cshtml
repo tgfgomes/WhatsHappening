@@ -1,0 +1,82 @@
+﻿@model WhatsHappening.Web.Areas.Backoffice.Models.Account.AccountListModel
+@{
+    ViewBag.Title = "Backoffice - Accounts";
+}
+
+<h2>Accounts</h2>
+
+
+
+<div class="spacer2">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ApplicationUserList.First().UserName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ApplicationUserList.First().Email)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ApplicationUserList.First().EmailConfirmed)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ApplicationUserList.First().Roles)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ApplicationUserList.First().AccessFailedCount)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ApplicationUserList.First().LockoutEnabled)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.ApplicationUserList.First().LockoutEndDateUtc)
+                            </th>
+                            <th>
+                                Actions
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var appUser in Model.ApplicationUserList)
+                        {
+                            <tr>
+                                @Html.HiddenFor(modelItem => appUser.Id)
+                                <td>
+                                    @Html.ActionLink(appUser.UserName, "Detail", "Account", new { id = appUser.Id }, null)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => appUser.Email)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => appUser.EmailConfirmed)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => appUser.Roles)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => appUser.AccessFailedCount)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => appUser.LockoutEnabled)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => appUser.LockoutEndDateUtc)
+                                </td>
+
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", "Account", new { id = appUser.Id }, new { @class = "btn btn-primary btn-lg" })
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @*@Html.DisplayFor(model => model.Pagination)*@
+    </div>
+</div>

@@ -1,0 +1,54 @@
+﻿@model WhatsHappening.Web.Models.Event.EventSearchModel
+
+
+@using (Html.BeginForm("SearchResults", "Event", FormMethod.Post,
+        new
+        {
+            id = "FormCreateNewEvent",
+            @class = "form-horizontal",
+            role = "form"
+        }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>@Html.LabelFor(model => model.EventDate)</h2>
+            @*<p>
+                    ASP.NET Web API is a framework that makes it easy to build HTTP services that reach
+                    a broad range of clients, including browsers and mobile devices. ASP.NET Web API
+                    is an ideal platform for building RESTful applications on the .NET Framework.
+                </p>*@
+            @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301870">Learn more &raquo;</a></p>*@
+            <div class="input-group">
+                @Html.TextBoxFor(model => model.EventDate, Model.EventDate.HasValue ? Model.EventDate.Value.Date.ToShortDateString() : "", new { @class = "form-control", placeholder = "type a date" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h2>@Html.LabelFor(model => model.EventLocation)</h2>
+            <div class="input-group">
+                @Html.TextBoxFor(model => model.EventLocation, new { @class = "form-control", placeholder = "type a location" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></span>
+            </div>
+            @Html.ValidationMessageFor(model => model.EventLocation)
+        </div>
+        <div class="col-md-4">
+            <h2>@Html.LabelFor(model => model.CategoryList)</h2>
+            <div class="input-group">
+                @Html.DropDownListFor(model => model.SelectedCategoryId, Model.CategoryList, string.Empty, new { @class = "form-control", placeholder = "select a event category" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="row spacer3 text-center">
+        <div class="col-md-12">
+            @*<a class="btn btn-success btn-lg" role="button" href="Search/">Search »</a>*@
+            <button type="submit" class="btn btn-success btn-lg">Search »</button>
+        </div>
+    </div>
+
+}
+
+<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=places" type="text/javascript"></script>

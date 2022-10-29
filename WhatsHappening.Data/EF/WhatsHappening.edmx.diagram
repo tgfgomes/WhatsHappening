@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e20ba790259f4b48a1a8f1eda327dbc5" Name="Diagram1">
+        <EntityTypeShape EntityType="WhatsHappeningModel.Category" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.City" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.Country" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.Event" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.EventDates" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="WhatsHappeningModel.FK_City_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="WhatsHappeningModel.FK_Event_City" ManuallyRouted="false" />
+        <AssociationConnector Association="WhatsHappeningModel.FK_EventDates_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="WhatsHappeningModel.Event_Category" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="8.75" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.AspNetRoles" Width="1.5" PointX="5.75" PointY="6.5" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.AspNetUserClaims" Width="2" PointX="11.25" PointY="7.625" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.AspNetUserLogins" Width="1.75" PointX="11.125" PointY="5" />
+        <EntityTypeShape EntityType="WhatsHappeningModel.AspNetUsers" Width="2.125" PointX="8" PointY="5.375" />
+        <AssociationConnector Association="WhatsHappeningModel.FK_auth_AspNetUserClaims_auth_AspNetUsers_UserId" />
+        <AssociationConnector Association="WhatsHappeningModel.FK_auth_AspNetUserLogins_auth_AspNetUsers_UserId" />
+        <AssociationConnector Association="WhatsHappeningModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

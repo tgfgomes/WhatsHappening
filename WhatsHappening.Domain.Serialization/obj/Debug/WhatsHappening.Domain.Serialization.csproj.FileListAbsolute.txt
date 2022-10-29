@@ -1,0 +1,17 @@
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Domain.Serialization.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Domain.Serialization.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Domain.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Infrastructure.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Data.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/EntityFramework.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Domain.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Infrastructure.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Infrastructure.dll.config
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Data.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/WhatsHappening.Data.dll.config
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/bin/Debug/EntityFramework.xml
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/obj/Debug/WhatsHappening.Domain.Serialization.csproj.AssemblyReference.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/obj/Debug/WhatsHappening.Domain.Serialization.csproj.CoreCompileInputs.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/obj/Debug/WhatsHappening.Domain.Serialization.csproj.CopyComplete
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/obj/Debug/WhatsHappening.Domain.Serialization.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain.Serialization/obj/Debug/WhatsHappening.Domain.Serialization.pdb

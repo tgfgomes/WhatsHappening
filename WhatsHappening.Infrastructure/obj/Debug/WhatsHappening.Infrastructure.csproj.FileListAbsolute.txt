@@ -1,0 +1,15 @@
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/WhatsHappening.Infrastructure.dll.config
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/WhatsHappening.Infrastructure.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/WhatsHappening.Infrastructure.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/EntityFramework.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/EntityFramework.SqlServer.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/WhatsHappening.Data.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/WhatsHappening.Data.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/WhatsHappening.Data.dll.config
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/EntityFramework.xml
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/bin/Debug/EntityFramework.SqlServer.xml
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/obj/Debug/WhatsHappening.Infrastructure.csproj.AssemblyReference.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/obj/Debug/WhatsHappening.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/obj/Debug/WhatsHappening.Infrastructure.csproj.CopyComplete
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/obj/Debug/WhatsHappening.Infrastructure.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Infrastructure/obj/Debug/WhatsHappening.Infrastructure.pdb

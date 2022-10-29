@@ -1,0 +1,11 @@
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/bin/Debug/WhatsHappening.Data.dll.config
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/bin/Debug/WhatsHappening.Data.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/bin/Debug/WhatsHappening.Data.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/bin/Debug/EntityFramework.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/bin/Debug/EntityFramework.SqlServer.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/bin/Debug/EntityFramework.xml
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/bin/Debug/EntityFramework.SqlServer.xml
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/obj/Debug/WhatsHappening.Data.csproj.CoreCompileInputs.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/obj/Debug/WhatsHappening.Data.csproj.CopyComplete
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/obj/Debug/WhatsHappening.Data.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Data/obj/Debug/WhatsHappening.Data.pdb

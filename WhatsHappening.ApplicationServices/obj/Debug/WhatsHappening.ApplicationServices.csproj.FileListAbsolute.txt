@@ -1,0 +1,9 @@
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/bin/Debug/WhatsHappening.ApplicationServices.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/bin/Debug/WhatsHappening.ApplicationServices.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/bin/Debug/WhatsHappening.Domain.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/bin/Debug/WhatsHappening.Domain.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/obj/Debug/WhatsHappening.ApplicationServices.csproj.AssemblyReference.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/obj/Debug/WhatsHappening.ApplicationServices.csproj.CoreCompileInputs.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/obj/Debug/WhatsHappening.ApplicationServices.csproj.CopyComplete
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/obj/Debug/WhatsHappening.ApplicationServices.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.ApplicationServices/obj/Debug/WhatsHappening.ApplicationServices.pdb

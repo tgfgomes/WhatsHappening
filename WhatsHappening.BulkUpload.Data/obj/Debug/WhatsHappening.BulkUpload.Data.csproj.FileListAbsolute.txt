@@ -1,0 +1,6 @@
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.BulkUpload.Data/bin/Debug/WhatsHappening.BulkUpload.Data.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.BulkUpload.Data/bin/Debug/WhatsHappening.BulkUpload.Data.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.BulkUpload.Data/obj/Debug/WhatsHappening.BulkUpload.Data.csproj.AssemblyReference.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.BulkUpload.Data/obj/Debug/WhatsHappening.BulkUpload.Data.csproj.CoreCompileInputs.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.BulkUpload.Data/obj/Debug/WhatsHappening.BulkUpload.Data.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.BulkUpload.Data/obj/Debug/WhatsHappening.BulkUpload.Data.pdb

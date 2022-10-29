@@ -1,0 +1,12 @@
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/bin/Debug/WhatsHappening.Domain.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/bin/Debug/WhatsHappening.Domain.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/bin/Debug/WhatsHappening.Data.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/bin/Debug/EntityFramework.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/bin/Debug/WhatsHappening.Data.pdb
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/bin/Debug/WhatsHappening.Data.dll.config
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/bin/Debug/EntityFramework.xml
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/obj/Debug/WhatsHappening.Domain.csproj.AssemblyReference.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/obj/Debug/WhatsHappening.Domain.csproj.CoreCompileInputs.cache
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/obj/Debug/WhatsHappening.Domain.csproj.CopyComplete
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/obj/Debug/WhatsHappening.Domain.dll
+/Users/tiagogomes/Projects/WhatsHappening/WhatsHappening.Domain/obj/Debug/WhatsHappening.Domain.pdb

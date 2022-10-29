@@ -1,0 +1,134 @@
+﻿@model WhatsHappening.Web.Models.Event.EventCreateModel
+
+@{
+    ViewBag.Title = "WhatsHappening - Create Event";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Create new event</h2>
+    </div>
+</div>
+
+
+@using (Html.BeginForm("Create", "Event", FormMethod.Post,
+        new
+        {
+            id = "FormCreateNewEvent",
+            @class = "form-horizontal spacer3",
+            role = "form"
+        }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.Name)
+            @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder = "type the event's name" })
+            @Html.ValidationMessageFor(p => p.Name)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-3">
+            @Html.LabelFor(model => model.EventDate)
+            <div class="input-group">
+                @Html.TextBoxFor(model => model.EventDate, Model.EventDate.HasValue ? Model.EventDate.Value.Date.ToShortDateString() : "", new { @class = "form-control", placeholder = "event's date" })
+                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
+            </div>
+            @Html.ValidationMessageFor(model => model.EventDate)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.CategoryList)
+            @Html.DropDownListFor(model => model.SelectedCategoryId, Model.CategoryList, string.Empty, new { @class = "form-control", placeholder = "Select a category or add one" })
+            @Html.ValidationMessageFor(p => p.SelectedCategoryId)
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-12">
+            @Html.LabelFor(model => model.Address)
+            @Html.TextBoxFor(model => model.Address, new { @class = "form-control", placeholder = "type the event's address" })
+            @Html.ValidationMessageFor(p => p.Address)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.CountryList)
+            @Html.DropDownListFor(model => model.SelectedCountryId, Model.CountryList, string.Empty, new { @class = "form-control", placeholder = @Html.DisplayNameFor(p => p.CountryList) })
+            @Html.ValidationMessageFor(p => p.SelectedCountryId)
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.CityList)
+            @Html.DropDownListFor(model => model.SelectedCityId, Model.CityList, string.Empty, new { @class = "form-control", placeholder = "Select a city or add one" })
+            @Html.ValidationMessageFor(p => p.SelectedCityId)
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="form-group spacer3">
+        <div class="col-md-12">
+            <a id="Cancel" href='@Url.Action("Index", "Home")' role="button" class="btn btn-default">Cancel</a>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+}
+
+
+@section scripts
+{
+    <script type="text/javascript">
+        function setCities(selectedCountryId) {
+            if (selectedCountryId) {
+                //$('#SelectedCityId').select2("enable", false);
+                $('#SelectedCityId').attr('placeholder', 'Loading Cities...').select2("enable", false);
+                $.getJSON("@Url.RouteUrl("DefaultApi", new { httproute = "", controller = "City" })" + "?countryId=" + selectedCountryId, function (data) {
+                    setOptionsOnSelect(data, $('#SelectedCityId'));
+                    $('#SelectedCityId').attr('placeholder', 'Select a city or add one').select2();
+                    $('#SelectedCityId').select2("enable", true);
+                });
+            } else {
+                setOptionsOnSelect(null, $('#SelectedCityId'));
+            }
+            $('#SelectedCityId').select2({ allowClear: true, width: 'resolve', theme: "bootstrap" });
+            $('#SelectedCityId').select2('data', null);
+            $('#SelectedCityId').select2({ allowClear: true, width: 'resolve', theme: "bootstrap" });
+        }
+
+        $(document).ready(function () {
+
+            $('#SelectedCountryId').select2({ allowClear: true, width: 'resolve', theme: "bootstrap" })
+                    .on('change', function (e) {
+                        setCities($(this).val());
+                    })
+                    .trigger('change');
+
+            //$('span[data-valmsg-for="SelectedCountryId"]').attr("data-valmsg-for", $('select[id=$"SelectedCountryId"]').attr("id"));
+
+            //http://eternicode.github.io/bootstrap-datepicker/?markup=input&format=&weekStart=&startDate=&endDate=&startView=0&minViewMode=0&todayBtn=false&clearBtn=false&language=en&orientation=auto&multidate=&multidateSeparator=&keyboardNavigation=on&forceParse=on#sandbox
+
+            $('.input-group input#EventDate').datepicker({
+                format: "dd/MM/yyyy",
+                //startDate: new Date().getDate().toString(),
+                autoclose: true,
+                todayHighlight: true
+            });
+
+
+        });
+    </script>
+}
